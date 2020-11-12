@@ -16,13 +16,13 @@ git push -u origin main
 //直接修改文件即修改工作区  
 
 >cd "路径"              //若想进入某个文件夹下  
-<img src="C:\Users\hdu\Desktop/11.png" width="50%">  
+![alt 图片](C:\Users\hdu\Desktop/11.png)
 
-git add <filename>         //把工作区文件添加到暂存区  
+git add <filename>      //把工作区文件添加到暂存区  
 
-git commit -m <"说明">            //把暂存区文件添加到master版本库  
+git commit -m <"说明">        //把暂存区文件添加到master版本库  
 
-git push -u origin master             //把本地库的内容推送到远程，即把当前分支master推送到远程第一次推送master分支时，加上了-u参数    
+git push -u origin master    //把本地库的内容推送到远程，即把当前分支master推送到远程第一次推送master分支时，加上了-u参数    
 
 如果在github的remote上已经有了文件，会出现错误。此时应当先pull一下，即：  
 git pull origin master  
