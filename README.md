@@ -16,7 +16,7 @@ git push -u origin main
 //直接修改文件即修改工作区  
 
 >cd "路径"         //若想进入某个文件夹下  
-![](C:\Users\hdu\Desktop)  
+<img src="C:\Users\hdu\Desktop/11.png" width="50%">  
 
 git add <filename>   //把工作区文件添加到暂存区  
 
