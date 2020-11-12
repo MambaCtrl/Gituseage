@@ -15,8 +15,7 @@ git push -u origin main
 //更新内容时（工作区->暂存区->版本库）：    
 //直接修改文件即修改工作区  
 
->cd "路径"              //若想进入某个文件夹下  
-![alt 图片](C:\Users\hdu\Desktop/11.png)
+>cd "路径"              //若想进入某个文件夹下
 
 git add <filename>      //把工作区文件添加到暂存区  
 
