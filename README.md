@@ -17,7 +17,6 @@ git push -u origin main
 
 >cd "路径"              //若想进入某个文件夹下
 
-![avatar](https://imgchr.com/i/DpCKn1)
 
 git add <filename>      //把工作区文件添加到暂存区  
 
