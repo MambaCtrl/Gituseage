@@ -34,8 +34,8 @@ git push origin master
 ---------------------------------------------------------------------------------------------------------------
 //将本地代码推送到分支  
   git init                 //创建本地仓库  
-  git remote add origin 仓库地址        //  本地代码连接到远程仓库
-  git checkout -b 分支名               //  新建分支  
+  git remote add origin 仓库地址        //  本地代码连接到远程仓库  
+  git checkout -b 分支名               //  新建分支    
   git add ...  
   git commit -m "说明"  
   git push --set-upstream origin 分支名   // 推送分支  
