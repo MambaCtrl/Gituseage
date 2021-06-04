@@ -39,6 +39,7 @@ git push origin master
   git add ...  
   git commit -m "说明"  
   git push --set-upstream origin 分支名   // 推送分支  
+  git push -u origin 分支名 -f            // 强推分支  
   
   -------------------------------------------------------------------------------------------------------------
   //分支合并同步
