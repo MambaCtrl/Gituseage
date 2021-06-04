@@ -42,9 +42,9 @@ git push origin master
   
   -------------------------------------------------------------------------------------------------------------
   //分支合并同步
-  git checkout 主分支 
-  git pull origin 主分支
-  git checkout 分支名
-  git merge 主分支     //  合并分支
+  git checkout 主分支   
+  git pull origin 主分支  
+  git checkout 分支名  
+  git merge 主分支     //  合并分支  
   
   
