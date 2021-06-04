@@ -40,4 +40,11 @@ git push origin master
   git commit -m "说明"  
   git push --set-upstream origin 分支名   // 推送分支  
   
+  -------------------------------------------------------------------------------------------------------------
+  //分支合并同步
+  git checkout 主分支 
+  git pull origin 主分支
+  git checkout 分支名
+  git merge 主分支     //  合并分支
+  
   
