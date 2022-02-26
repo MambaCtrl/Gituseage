@@ -52,5 +52,12 @@ git push origin master
   git merge 主分支     //  合并分支  
   
   --------------------------------------------------------------------------------------------------------------
-  
+  //删除github的某个文件
+  git init
+  cd "本地文件地址"   //  cd  C:\Users\CZW\Desktop\论文
+  git pull origin master    //  将远程仓库里面的项目拉下来
+  dir                 // 查看有哪些文件
+  git rm -r --cached "要删除的文件名"
+  git commit -m "说明"
+  git push -u origin master   //  推送更新
   
