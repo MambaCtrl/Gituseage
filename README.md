@@ -15,15 +15,15 @@ git push -u origin master
 //更新内容时（工作区->暂存区->版本库）：    
 //直接修改文件即修改工作区  
 
->cd "路径"              //若想进入某个文件夹下
+>cd "路径"                    // 若想进入某个文件夹下
 
 ![avater](https://imgchr.com/i/DpCKn1)
 
-git add <filename>      //把工作区文件添加到暂存区  
+git add <filename>            // 把工作区文件添加到暂存区  
 
-git commit -m <"说明">        //把暂存区文件添加到master版本库  
+git commit -m <"说明">        // 把暂存区文件添加到master版本库  
 
-git push -u origin master    //把本地库的内容推送到远程，即把当前分支master推送到远程第一次推送master分支时，加上了-u参数    
+git push -u origin master     // 把本地库的内容推送到远程，即把当前分支master推送到远程第一次推送master分支时，加上了-u参数    
 
 如果在github的remote上已经有了文件，会出现错误。此时应当先pull一下，即：  
 git pull origin master  
@@ -33,9 +33,9 @@ git push origin master
   
 ---------------------------------------------------------------------------------------------------------------
 //将本地代码推送到分支  
-  git init                 //创建本地仓库  
+  git init                             //  创建本地仓库  
   git remote add origin 仓库地址        //  本地代码连接到远程仓库  
-  git checkout -b 分支名               //  新建分支    
+  git checkout -b 分支名                //  新建分支    
   git add ...  
   git commit -m "说明"  
   git push --set-upstream origin 分支名   // 推送分支  
@@ -54,11 +54,11 @@ git push origin master
   --------------------------------------------------------------------------------------------------------------
   //删除github的某个文件  
   git init  
-  cd "本地文件地址"   //  cd  C:\Users\CZW\Desktop\论文  
-  git pull origin master    //  将远程仓库里面的项目拉下来  
-  dir                 // 查看有哪些文件  
-  git rm -r --cached "要删除的文件名"  
+  cd "本地文件地址"                                      //  cd  C:\Users\CZW\Desktop\论文  
+  git pull origin master                                //  将远程仓库里面的项目拉下来  
+  dir                                                   //  查看有哪些文件  
+  git rm --cached 文件名/git rm -r --cached 文件夹名     //  删除某个文件/文件夹 
   git commit -m "说明"  
-  git push -u origin master   //  推送更新  
+  git push -u origin master                             //  推送更新  
   
   --------------------------------------------------------------------------------------------------------------
